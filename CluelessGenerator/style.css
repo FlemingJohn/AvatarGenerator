@@ -1,0 +1,47 @@
+/* General Layout and centering  */
+html{
+    background-color: hsl(216, 30%, 45%);
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    margin: 0;
+    padding:0;
+    height: 100%;
+    overflow-x:hidden;
+}
+
+/* main container */
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding:10px;
+}
+
+/* image styling */
+.addons-image,
+.tops-image,
+.bottoms-image{
+    width: 90%;
+    max-width:250px;
+    aspect-ratio: 3/4;
+    object-fit: contain;
+}
+
+/* button styling */
+button{
+    font-size: 1rem;
+    color: white;
+    background-color: #ff69b4;
+    font-family: 'Press Start 2P', monospace;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(46, 77, 105);
+}
+.random-button{
+    background-color: rgb(189, 38, 78);
+}
